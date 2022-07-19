@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Tailwind Practice</title>
+  </head>
+  <body class="bg-blacklite pb-12 text-white">
+    <header class="py-6">
+      <div
+        class="px-8 md:px-14 lg:px-24 w:full container flex justify-between items-center mx-auto text-red-200 font-poppins">
+
+<!--LEFT SIDE OF HEADER-->
+
+        <div class="text-lg text-white">@Cosmorazer</div>
+
+<!--RIGHT SIDE OF HEADER-->
+
+        <div class="hidden md:flex space-x-12 items-center text-lg">
+          <a href="#internships" class="hover:text-white">Internships</a>
+          <a href="#contact" class="hover:text-white text-blue-400">Contact Me!</a>
+        </div>
+
+<!--MENU ON MOBILE SCREEN-->
+
+        <div class="md:hidden">
+        </div>
+      </div>
+    </header>
+
+<!--PROFILE PICTURE-->
+
+      <div class="container mt-16 mx-auto px-8 md:px-14 lg:px-24 text-6xl flex items-center justify-between">
+        <h1 class="md:7xl lg:8xl z-10 static">Hi, I am Aditya.<br>
+        I'm a college student who's <br> passionate about learning <br> web development!</h1>
+        <img src="https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="Profile Picture" class="rounded-lg static z-0 ">
+      </div>
+
+      <div class="container mt-64 mx-auto px-8 md:px-14 lg:px-24">
+        <section>
+          <h1 id="internships" class="text-6xl">Internships</h1>
+          <ul class="list-disc mx-20 my-10 text-4xl">
+            <li class="mb-10">
+              I have had the pleasure of working with Mentorplus, a startup of my own college as a content writer.
+            </li> 
+            <li>
+              I have worked with Pacify Medical Technologies during my Practice School 1, working on an image classifier project titled - <br> <br>"Assessment of Wound Beds using OpenCV"
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="container mt-64 mx-auto px-8 md:px-14 lg:px-24">
+        <section>
+          <h1 id="contact" class="text-6xl">Contact Details</h1>
+          <ul class="list-disc mx-20 my-10 text-4xl">
+            <li class="mb-10">
+              Email: aditya.agrawal316@gmail.com
+            </li> 
+            <li>
+              Phone: 91XXXXXXXX
+            </li>
+          </ul>
+        </section>
+      </div>
+  </body>
+</html>
